@@ -1,0 +1,40 @@
+- company: Kian Digital
+  roles:
+    - role: Head of DevOps
+      details: "We changed workflows to completely automated ones using ansible and awx. We
+              migrated to Gilab-CI from jenkins. We are using Helm-charts for our deployments.
+              We deployed a harden Kubernetes cluster for our production env all by Ansible
+              which is capable of passing CIS standards benchmark.
+              We're using Prometheus for monitoring our metrics and elk for logs. We deployed
+              rook-ceph cluster on k8s for pvs. To complete our stack we even add Nvidia vgas
+              to our k8s cluster,both for video conversion and using gpus.
+              We have a live video stream platform for one of our products and to handle the
+              outgoing we developed a cdn platform for ourselves which is very easily scalable."
+      date: "7.2020 -  Present"
+    - role: DevOps Engineer
+      details: "Started my work as a Devops engineer and then promoted as Head of Devops in
+              KianDigital."
+      date: "3.2020 -  7.2020"
+
+- company: Sadad Informatic Corporation
+  roles: 
+    - role: Cloud Developer and DevOps Engineer
+      details: "I was in charge of Sadad co. Openstack Cloud. We deployed Openstack
+              for them and we revolutionized their DevOps flow."
+      date: "03.2019 - 3.2020"
+
+- company: Amnafzar Co.
+  roles:
+    - role: Senior Software Engineer
+      details: "I was a senior java developer at AmnAfzar. We developed an SIEM for
+              MCI, Ayandeh Bank and some other big companies in Iran. I was in charge
+              of all Devops processes and maintaining systems in production
+              environment too."
+      date: "7.2015 - 3.2019"
+- company: Samayesh
+  roles:
+    - role: Full Stack Developer
+      details: "I worked as a full stack developer programming with Python, Php, ExtJS
+              and jQuery. We developed a monitoring system for Physical parameters for
+              data-centers and etc."
+      date: "7.2012 - 7.2015"

@@ -1,0 +1,44 @@
+about:
+  name: Hamed Bahadorzadeh
+  tagline: Devops Engineer
+  phone: "+989131537150"
+  email: h.bahadorzadeh@gmail.com
+  links:
+    - title: /in/hbahadorzadeh
+      url: https://www.linkedin.com/in/hbahadorzadeh
+      icon: fab fa-linkedin
+    - title: hbahadorzadeh
+      url: https://github.com/hbahadorzadeh
+      icon: fab fa-github
+  details: |
+    I was a backend developer with a strong knowledge of Linux administration.
+    I've changed my path about three years ago and started working as devops
+    engineer. I have more than 9 years experience in these fields and most of
+    that time was in Iran's top IT companies. I'm passionate for learning new
+    techs and more passionate for developing them.
+
+
+skills:
+  - groupName: Systems Adminstration
+    list:
+      - Kubernetes - Helm 
+      - Docker - Openstack
+      - Linux - Debian - Ubuntu
+      - Ansible - awx
+
+  - groupName: Programming & DevOps 
+    list:
+      - Java - Python- Golang
+      - Git - gitlab-ci - jenkins
+
+interests:
+  - DevOps
+  - Development
+
+languages:
+  - name: Persian
+    level: Native
+
+  - name: English
+    level: Professional
+
