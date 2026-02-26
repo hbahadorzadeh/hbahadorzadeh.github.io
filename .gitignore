@@ -1,0 +1,17 @@
+# Hugo build output — never commit this, GitHub Actions builds it
+/public/
+
+# Hugo local server cache
+/resources/_gen/
+/.hugo_build.lock
+
+# macOS system files
+.DS_Store
+
+# Editor directories
+.vscode/
+.idea/
+
+# Node (if you later add PostCSS/Tailwind)
+node_modules/
+package-lock.json

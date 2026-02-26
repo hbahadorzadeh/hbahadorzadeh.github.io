@@ -1,0 +1,131 @@
+baseURL = "https://hbahadorzadeh.github.io/"
+title = "Hamed Bahadorzadeh"
+paginate = 5
+theme = "PaperMod"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = "production"
+  title = "Hamed Bahadorzadeh"
+  description = "Senior Platform and Distributed Systems Engineer — Almere, Netherlands"
+  keywords = ["platform engineering", "devops", "kubernetes", "distributed systems", "CI/CD"]
+  author = "Hamed Bahadorzadeh"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  [params.profileMode]
+    enabled = true
+    title = "Hamed Bahadorzadeh"
+    subtitle = "Senior Platform & Distributed Systems Engineer with 10+ years building developer platforms, CI/CD ecosystems, and high-scale distributed systems. Based in Almere, Netherlands."
+    imageUrl = "/images/profile.jpg"
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "Hamed Bahadorzadeh"
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "/posts"
+    [[params.profileMode.buttons]]
+      name = "Experience"
+      url = "/experience"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/hbahadorzadeh"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/hbahadorzadeh"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:h.bahadorzadeh@gmail.com"
+
+  [params.assets]
+    disableHLJS = true
+
+  [params.cover]
+    hidden = true
+    hiddenInList = true
+    hiddenInSingle = true
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    limit = 10
+    keys = ["title", "permalink", "summary", "content"]
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "experience"
+  name = "Experience"
+  url = "/experience/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "skills"
+  name = "Skills"
+  url = "/skills/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Blog"
+  url = "/posts/"
+  weight = 40
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
